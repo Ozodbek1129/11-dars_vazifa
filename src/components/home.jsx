@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import Modal from './Modal';
-import Card from './Card';
+import Modal from './modal';
+import Card from './card';
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
